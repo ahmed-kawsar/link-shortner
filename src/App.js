@@ -14,6 +14,8 @@ const App = () => {
       )
       setShortenedLink(response.data.result.full_short_link)
       setInput('')
+      alert('coppied!')
+      return
     } catch (e) {
       console.log(e)
     }
